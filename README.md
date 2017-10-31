@@ -7,3 +7,17 @@ The motion detectors are deployed by many companies as well as individuals all o
 Picture1:Intruder_positive &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Picture2:Racoon_potential false positive <br />
 <br />
 The problem of **false positive** is a big concern for both the security service companies and the customers. At the very bottom level, it will get customers annoyed and eventually hurt the trust and reputation of the service company. What’s worse, a false alarm almost always generates extra costs beyond the annoying alarm due to the consequential reaction processes,including sending extra security guard or requsting emergancy service. Given the pervasive use of those systems, tremendous labor, time and money are wasted on false positive alarm each year. A pipeline with enough data corresponding to different motion objects respectively is of vital importance to improve the efficiency of the system while keep the high effectiveness, so that the system can make an intellectualized decision based on the data. 
+## Goals of Model
+We have three main goals to be achieved with the new pipeline:<br />
+1. Gather image data for processing<br />
+2. Process the image to detect the potential threats<br />
+3. Organize and aggregate the data for consumption<br />
+## Tech to use
+We follow three general rules for selecting our tooling:<br />
+1. Open source<br />
+There is a huge trend to open source in industry due to its advantages, including lower costs and high flexibility.
+2. Cloud native<br />
+In this era, people tend to have the mindset of running things in a cloud environment.
+3. Developed and used by the tech giant<br />
+More reliable and easier to apply for those who want to replicate our pipeline.<br />
+Below are tools we are going to use, which can satisfy our pipeline goals and selection criteria:
