@@ -44,4 +44,4 @@ docker,it's not feasible to have different computers and servers for every appli
 On top of the object storage, we will also use **Data Versioning**, **Access Control**, and **Statistics**.<br /> Generally, they allows us to organize data in repositories. They also track state and trigger analyses, and manage access to data.<br /> As a result, we in some extend avoid the problem of some legislation responsibility to clearly keep track of what we did on and get from certain persons' data.
 Data pipelining has setting up different piece so they flow into one another, and triggering those pieces when needed in variety stages and on variety platforms. By having the pipeline, we can have systems look like in a certain way, and things in certain containers and all of those containers can now run on a common engine. It’s easy to move certain part to a different environment without too much trouble.
 ### Analyze and ML - [Python](https://www.python.org/),[TensorFlow](https://www.tensorflow.org/)
-TensorFlow is powerful in analyzing and is widely used
+TensorFlow is powerful in analyzing and is widely us
