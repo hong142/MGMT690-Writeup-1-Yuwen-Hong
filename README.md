@@ -25,4 +25,9 @@ Below are tools we are going to use, which can satisfy our pipeline goals and se
 ### Data Storage -S3
 Since our data is primarily images, which considered unstructured, we'll choose **object storage** because it has higher scalability, durability and lower costs. Unlike block storage and file storage, data are stored in buckets, so we don’t have to know number, type, scale and structure of those blocks ahead of time. We also don’t need teams of people to manage the database before data comes in and ready for consumption. Specifically, we will use Amazon Simple Storage Service (**S3**).<br />
 Object storage: https://blog.rackspace.com/introduction-to-object-storage<br />
-S3: https://aws.amazon.com/s3/
+S3: https://aws.amazon.com/s3/<br />
+### Scheduling and pipelining - Kubernets, Docker, Pachyderm
+On top of the object storage, we will also use **Data Versioning**, **Access Control**, and **Statistics**.<br /> Generally, they allows us to organize data in repositories. They also track state and trigger analyses, and manage access to data.<br /> As a result, we in some extend avoid the problem of some legislation responsibility to clearly keep track of what we did on and get from certain persons' data.
+Data pipelining has setting up different piece so they flow into one another, and triggering those pieces when needed in variety stages and on variety platforms. By having the pipeline, we can have systems look like in a certain way, and things in certain containers and all of those containers can now run on a common engine. It’s easy to move certain part to a different environment without too much trouble.
+### Analyze and ML - TensorFlow
+TensorFlow is powerful in analyzing and is widely used
