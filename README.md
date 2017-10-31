@@ -12,7 +12,7 @@ Below is a potential model to minimize the false positive problem. As you can se
 <br />
 <img src="https://github.com/hong142/test/blob/master/20171030221804.png" width="350">
 ## Model Limitation
-With this model, problems still exist when two probabilities are pretty close, but the solution really depends on the users' requirements that do we want to make action based on low probability or we only react to a probability higher than a certain level. Questions could also raise when unexpected or unusual things happened, such as people could break in with a raccoon costume, which might go out of the detection ability of our pipeline. Since we believe such things are extremely rare and we are focusing on a more generalizable pipeline model, we will not take this into consideration. However, for customers that have enough reasons to justify the need and cost, there is always possibility to add another specialized pipeline to resolve their unique problems.
+With this model, problems still exist when two probabilities are pretty close, but the solution really depends on the users' requirements that do we want to make action based on low probability or we only react to a probability higher than a certain level. Questions could also raise when unexpected or unusual things happened, such as people could break in with a raccoon costume, which might go out of the detection ability of our pipeline. Since we believe such things are extremely rare and we are focusing on a more generalizable pipeline model, we will not take this into consideration. However, for customers that have enough reasons to justify the need and cost, there is always possibility to add another specialized pipeline to resolve their unique problems. Tradeoff, development costs associated operational costs responsive steps.
 ## Goals of Model
 We have three main goals to be achieved with the new pipeline:<br />
 1. Gather image data for processing<br />
@@ -26,7 +26,7 @@ There is a huge trend to open source in industry due to its advantages, includin
 In this era, people tend to have the mindset of running things in a cloud environment.
 3. Developed and used by the tech giant<br />
 More reliable and easier to apply for those who want to replicate our pipeline.<br />
-Below are tools we are going to use, which can satisfy our pipeline goals and selection criteria:<br />
+### Below are tools we are going to use, which can satisfy our pipeline goals and selection criteria:<br />
 <img src="https://github.com/hong142/test/blob/master/20171030225651.png" width="250" height ="250">&nbsp; &nbsp; &nbsp;<img src="https://github.com/hong142/test/blob/master/20171030225855.png" width="250" height="250"> <br /> <img src="https://github.com/hong142/test/blob/master/20171030225818.png" width="600" height="250"> <br />
 ### Data Storage -[S3](https://blog.rackspace.com/introduction-to-object-storage)
 Since our data is primarily images, which considered unstructured, we'll choose [**object storage**](https://blog.rackspace.com/introduction-to-object-storage) because it has higher scalability, durability and lower costs. Unlike block storage and file storage, data are stored in buckets, so we don’t have to know number, type, scale and structure of those blocks ahead of time. We also don’t need teams of people to manage the database before data comes in and ready for consumption. Specifically, we will use Amazon Simple Storage Service ([**S3**](https://blog.rackspace.com/introduction-to-object-storage)).<br />
