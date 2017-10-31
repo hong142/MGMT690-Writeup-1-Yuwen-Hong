@@ -1,2 +1,7 @@
 # test
-![alt text](https://github.com/hong142/test/blob/master/20171030195012.png){:height="5px" width="5px"}.
+This document will introduce a data pipeline that works on the data from motion detectors as part of a security system to detect threats. We will discuss what’s the problem we have in current system, how we going to solve it with the pipeline and the technology we are going to use.
+Problem
+The motion detectors are deployed by companies as well as individual household all over the world as part of their security systems to detect intruders and give necessary alarms. Basically, the system are getting a series images or videos, and the data will streaming into the top of our pipeline.  However, motion detector can catch the motion of not only humans but also other objects such as animals, which will cause what we called false positive detection. The problem of false positive is a big concern for both the security service company and the customers. It will generate extra labor costs, waste time and money. Especially for the service company, the reputation and trust might be destroyed. 
+For example, the first picture is an obvious intruder, while things like the racoon in the second picture could also cause the alarm without a pipeline to analyze the data and further detect the threats. As a result, we want to get enough data that is corresponding to different motion objects respectively, so that we can eventually make an intellectualized decision based on it. 
+
+![alt text](https://github.com/hong142/test/blob/master/20171030195012.png)
