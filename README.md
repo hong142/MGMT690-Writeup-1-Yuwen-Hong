@@ -20,4 +20,5 @@ There is a huge trend to open source in industry due to its advantages, includin
 In this era, people tend to have the mindset of running things in a cloud environment.
 3. Developed and used by the tech giant<br />
 More reliable and easier to apply for those who want to replicate our pipeline.<br />
-Below are tools we are going to use, which can satisfy our pipeline goals and selection criteria:
+Below are tools we are going to use, which can satisfy our pipeline goals and selection criteria:<br />
+<img src="https://github.com/hong142/test/blob/master/20171030225651.png" width="250" height ="250">&nbsp; &nbsp; &nbsp;<img src="https://github.com/hong142/test/blob/master/20171030225855.png" width="250" height="250"> <br /> <img src="https://github.com/hong142/test/blob/master/20171030225818.png" width="600" height="250"> <br />
