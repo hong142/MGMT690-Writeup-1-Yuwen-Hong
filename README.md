@@ -22,3 +22,7 @@ In this era, people tend to have the mindset of running things in a cloud enviro
 More reliable and easier to apply for those who want to replicate our pipeline.<br />
 Below are tools we are going to use, which can satisfy our pipeline goals and selection criteria:<br />
 <img src="https://github.com/hong142/test/blob/master/20171030225651.png" width="250" height ="250">&nbsp; &nbsp; &nbsp;<img src="https://github.com/hong142/test/blob/master/20171030225855.png" width="250" height="250"> <br /> <img src="https://github.com/hong142/test/blob/master/20171030225818.png" width="600" height="250"> <br />
+### Data Storage -S3
+Since our data is primarily images, which considered unstructured, we'll choose **object storage** because it has higher scalability, durability and lower costs. Unlike block storage and file storage, data are stored in buckets, so we don’t have to know number, type, scale and structure of those blocks ahead of time. We also don’t need teams of people to manage the database before data comes in and ready for consumption. Specifically, we will use Amazon Simple Storage Service (**S3**).<br />
+Object storage: https://blog.rackspace.com/introduction-to-object-storage<br />
+S3: https://aws.amazon.com/s3/
