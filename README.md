@@ -7,7 +7,7 @@ The motion detectors are used by many companies as well as individuals all over 
 Picture1:Intruder_positive &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Picture2:Racoon_potential false positive <br />
 <br />
 The problem of **false positive** is a big concern for both the security service companies and the customers. At the very bottom level, if happened frequently, it will get customers annoyed and eventually hurt the trust and reputation of the service company. What’s worse, a false alarm almost always generates extra costs beyond the annoying alarm, due to the consequential responsive steps, including sending extra security guard or requsting emergancy service. Given the pervasive use of those systems, tremendous labors, time and money are wasted on false positive alarm each year. A pipeline with enough data corresponding to different motion objects respectively is of vital importance to improve the efficiency of the system while keep the high effectiveness, so that the system can make an intellectualized decision based on the data. 
-## Model
+## Potential Model
 Below is a potential model to minimize the false positive problem. As you can see in the upper left corner of the picture, there is a probability (96%) and a name of object (raccoon). What we are trying to do is gathering large amount of data corresponding to common motion objects. And then when the new motion is captured, based on historical data we have in the model, we can assign a probability to different objects, predict the object by choosing the one with highest probability, and take further actions.<br />
 <br />
 <img src="https://github.com/hong142/test/blob/master/20171030221804.png" width="350">
