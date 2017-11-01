@@ -42,9 +42,10 @@ Specifically, [**Docker**](https://www.youtube.com/watch?v=RyxXe5mbzlU&feature=y
 Although containers simplified the deploy process, things can still mess up and lose track, especially when the scale becomes large enough. Instead of manually making decision about work distribution among servers, [**Kubernets**](https://www.youtube.com/watch?v=R-3dfURb2hA&feature=youtu.be), a platform working with containers, will be used to take care of scale deployment. Having its master node knowing all the server and container resources available, Kubernets dynamically provides the most efficient way of server allocation while fulfilling any hardware criteria specified by developers. In addition, Kubernets is capable of monitoring and auto-recovering on operation of application. Kubernets also enables data scheduling in terms of prioritizing certain requirements.<br /> 
 <br /> 
 Same as we mentioned in the data storage and origination part, just the completion of setting up of data pipeline is not sufficient to generate value for business. [**Pachyderm**](http://pachyderm.io/) is again needed to get things connected so that data can flow through the entire system.
-
 ### Analysis and Machine Learning - [Python](https://www.python.org/),[TensorFlow](https://www.tensorflow.org/)
 The last piece of the project is analysis and machine learning. [**Python**](https://www.python.org/) will be the language simply because it's powerful in machine learning while of low complexity. [**TensorFlow**](https://www.tensorflow.org/) developed by google will be the key library, beacuse it is designed for dealing with large scale of data. In this project, our model will be graph based, and TensorFlow is good for building such complex model and runs fast.
-## Summary
-<img src="https://github.com/hong142/test/blob/master/20171031211208.png" width="600" >
-<img src="https://github.com/hong142/test/blob/master/20171031210948.png" width="600" >
+## Appendix
+<img src="https://github.com/hong142/test/blob/master/20171031211208.png" width="600" ><br /> 
+The overall structure and relationships among functions and tools.
+<img src="https://github.com/hong142/test/blob/master/20171031210948.png" width="600" ><br />
+Operations within Pachyderm.
