@@ -44,5 +44,5 @@ Although containers simplified the deploy process, things can still mess up and 
 <br /> 
 Same as we mentioned in the data storage and origination part, just the completion of setting up of data pipeline is not sufficient to generate value for business, [**Pachyderm**](http://pachyderm.io/) is again needed to get things connected so that data can flow through the entire system.
 
-### Analyze and ML - [Python](https://www.python.org/),[TensorFlow](https://www.tensorflow.org/)
+### Analyze and Machine Learning - [Python](https://www.python.org/),[TensorFlow](https://www.tensorflow.org/)
 TensorFlow is powerful in analyzing and is widely us
