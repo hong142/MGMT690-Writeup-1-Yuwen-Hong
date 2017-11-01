@@ -44,5 +44,5 @@ Although containers simplified the deploy process, things can still mess up and 
 <br /> 
 Same as we mentioned in the data storage and origination part, just the completion of setting up of data pipeline is not sufficient to generate value for business, [**Pachyderm**](http://pachyderm.io/) is again needed to get things connected so that data can flow through the entire system.
 
-### Analyze and Machine Learning - [Python](https://www.python.org/),[TensorFlow](https://www.tensorflow.org/)
-TensorFlow is powerful in analyzing and is widely us
+### Analysis and Machine Learning - [Python](https://www.python.org/),[TensorFlow](https://www.tensorflow.org/)
+The last piece of the project is analysis and machine learning. [**Python**](https://www.python.org/) will be the language simply because it's powerful in machine learning while of low complexity. [**TensorFlow**](https://www.tensorflow.org/) developed by google will be the key library, beacuse it is designed for dealing with large scale of data. In this project, our model will be graph based, and TensorFlow is good for building such complex model and runs fast.
