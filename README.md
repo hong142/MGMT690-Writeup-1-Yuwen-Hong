@@ -46,5 +46,5 @@ Same as we mentioned in the data storage and origination part, just the completi
 ### Analysis and Machine Learning - [Python](https://www.python.org/),[TensorFlow](https://www.tensorflow.org/)
 The last piece of the project is analysis and machine learning. [**Python**](https://www.python.org/) will be the language simply because it's powerful in machine learning while of low complexity. [**TensorFlow**](https://www.tensorflow.org/) developed by google will be the key library, beacuse it is designed for dealing with large scale of data. In this project, our model will be graph based, and TensorFlow is good for building such complex model and runs fast.
 ## Summary
-<img src="https://github.com/hong142/test/blob/master/20171031210948.png" width="600" >
 <img src="https://github.com/hong142/test/blob/master/20171031211208.png" width="600" >
+<img src="https://github.com/hong142/test/blob/master/20171031210948.png" width="600" >
